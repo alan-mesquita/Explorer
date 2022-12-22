@@ -30,6 +30,10 @@ span, a {
   color: #ff9900;
 }
 
+#footer {
+  margin-bottom: 32px;
+}
+
 p, #footer {
   color: #7d7987;
   font-size: 14px;
