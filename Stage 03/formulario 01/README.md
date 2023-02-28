@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="Desafio formulário Intermediário" src="images/layout.jpeg" width="100%">
+  <img alt="Desafio formulário Intermediário" src="images/Mentoria.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
