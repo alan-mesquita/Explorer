@@ -1,0 +1,33 @@
+@media (max-width: 450px) {
+    .page {
+        padding: 84px 0 80px;
+    }
+    
+    header {
+        text-align: center;
+        width: 300px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    form .container {
+        padding: 32px 34px 64px;
+    }
+
+    .input-info-names {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkbox-wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .col-3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
