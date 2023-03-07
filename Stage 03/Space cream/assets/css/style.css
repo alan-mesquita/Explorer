@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-main:      hsla(233, 100%, 97%, 1);
+    --bg-header:    hsla(218, 17%, 62%, 1);
+    --bg-span:      hsla(312, 91%, 96%, 1);
+    --bg-h1:        hsla(275, 18%, 79%, 1);
+
+
+
+    --fc-heading:   hsla(0, 0%, 100%, 1);
+    --fc-texting:   hsla(274, 84%, 12%, 1);
+    --fc-span:      hsla(232, 17%, 35%, 1);
+
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Palanquin', sans-serif;
+}
+
+header {
+    height: 28rem;
+    background: var(--bg-header);
+    text-align: center;
+}
+
+header img {
+    margin: 3.2rem 0;
+    width: 13.7rem;
+    height: 13.7rem;
+    animation: topdown 1s;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 3.4rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    color: var(--fc-heading);
+    background-color: var(--bg-h1);
+    padding: 0.8rem 0;
+    animation: topdown 1s;
+}
+
+main section {
+    display: grid;
+    gap: 3.6rem;
+    max-width: 32rem;
+    margin: 0 auto 6rem;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--fc-texting);
+    text-align: center;
+    margin: 1.4rem 10% 6.2rem;
+    animation: leftright 2s;
+}
+
+.card {
+    position: relative;
+    animation: rightleft 1s;
+}
+
+.card img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    transition: all 400ms;
+    /* filter: saturate(1.5); */
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.5);
+}
+
+.card span {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    color: var(--fc-span);
+    text-transform: uppercase;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    background-color: var(--bg-span);
+    border-radius: 2rem;
+    padding: 0 2.4rem;
+}
+
+.card:nth-child(2) img,
+.card:nth-child(3) img{
+    height: 45rem;
+}

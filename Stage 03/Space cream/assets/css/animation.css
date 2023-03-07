@@ -1,0 +1,30 @@
+
+@keyframes topdown {
+    0% {
+        transform: translateY(-80%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes leftright {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
