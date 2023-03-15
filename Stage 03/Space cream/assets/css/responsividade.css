@@ -16,6 +16,10 @@
         'C D';
         max-width: 80rem;
     }
+
+    .card {
+        max-width: 35rem;
+    }
     
     .card:nth-child(1){
         grid-area: A;
@@ -36,7 +40,107 @@
     .card:nth-child(1) img,
     .card:nth-child(2) img,
     .card:nth-child(3) img,
-    .card:nth-child(4) img {
+    .card:nth-child(4) img,
+    .card:nth-child(5) img,
+    .card:nth-child(6) img {
         height: 35rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        display: flex;
+        height: 100vh;
+    }
+
+    main {
+        margin: auto;
+    }
+
+    header {
+        height: 100vh;
+        width: 37.7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        position: absolute;
+    }
+
+    header img {
+        margin: 3.2rem auto;
+    }
+
+    header h1 {
+        font-size: 4.8rem;
+        padding: 2rem 0;
+    }
+
+    header p {
+        display: block;
+        color: var(--fc-heading);
+    }
+
+    main {
+        padding-left: 37.7rem;
+    }
+
+    main section {
+        grid-template-areas: 
+        'A B C'
+        'D B E'
+        'D F E';
+        margin: 6.4rem;
+    }
+
+    main > p {
+        display: none;
+    }
+
+    .card {
+        max-width: 22rem;
+    }
+
+    .card:nth-child(1){
+        grid-area: A;
+    }
+
+    .card:nth-child(2){
+        grid-area: B;
+    }
+
+    .card:nth-child(3){
+        grid-area: C;
+    }
+
+    .card:nth-child(4){
+        grid-area: D;
+    }
+    .card:nth-child(5){
+        grid-area: F;
+    }
+
+    .card:nth-child(6){
+        grid-area: E;
+    }
+
+    .card:nth-child(1) img,
+    .card:nth-child(3) img,
+    .card:nth-child(5) img {
+        height: 15rem;
+    }
+
+    .card:nth-child(2) img,
+    .card:nth-child(4) img,
+    .card:nth-child(6) img {
+        height: 35rem;
+    }
+
+    footer p a {
+        color: var(--fc-texting);
+        font-family: 'Open Sans';
+        font-weight: 400;
+        line-height: 2.8rem;
+
+        text-align: center;
     }
 }

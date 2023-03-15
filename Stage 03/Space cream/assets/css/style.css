@@ -49,6 +49,10 @@ header h1 {
     animation: topdown 1s;
 }
 
+header p {
+    display: none;
+}
+
 main section {
     display: grid;
     gap: 3.6rem;
@@ -56,7 +60,7 @@ main section {
     margin: 0 auto 6rem;
 }
 
-main p {
+p {
     font-weight: 400;
     font-size: 2rem;
     line-height: 2rem;
@@ -102,6 +106,7 @@ main p {
 }
 
 .card:nth-child(2) img,
-.card:nth-child(3) img{
+.card:nth-child(3) img,
+.card:nth-child(5) img {
     height: 45rem;
 }
