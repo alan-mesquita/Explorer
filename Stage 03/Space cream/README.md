@@ -8,7 +8,7 @@
 <br>
 
   <p align="center">
-    <img alt="Desafio mobile first" src="assets/images/layout.png" width="auto">
+    <img alt="Desafio mobile first" src="assets/images/desktop.png" width="auto">
   </p>
 
 ## 🚀 Tecnologias
